@@ -1,7 +1,7 @@
 import React from 'react'
 import './SideBarMenu.css';
 import homeicon from '../../assets/homeicon.svg';
-import earningicon from '../../assets/myassetsicon.svg';
+import earningicon from '../../assets/myearningsicon.svg';
 import serviceicon from '../../assets/myservicesicon.svg';
 import assestsicon from '../../assets/myassetsicon.svg';
 

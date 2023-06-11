@@ -40,8 +40,8 @@
 .app{
   display: flex;
   
-    color: black;
+    /* color: black;
     overflow-y: scroll;
     max-height: 100vh;
-    flex-grow: 1;
+    flex-grow: 1; */
 }

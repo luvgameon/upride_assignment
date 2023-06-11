@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./TopBar.css";
 import plusicon from '../../assets/plus.svg';
 import searchicon from '../../assets/searchicon.svg';
+import Profile from '../SmartComp/Profile';
 
 
 export default function TopBar() {
@@ -16,6 +17,7 @@ export default function TopBar() {
                 <img src={plusicon} alt="plus" className="" />
                 New Booking
             </div>
+            <Profile name={"Luv"}/>
          
         </div>
     )

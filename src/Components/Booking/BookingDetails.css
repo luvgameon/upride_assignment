@@ -1,0 +1,28 @@
+.bookingview{
+position: absolute;
+width: 315px;
+height: 37px;
+left: 356px;
+top: 111px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 15px;
+/* or 60% */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.85);
+
+}
+
+.icon{
+    position: absolute;
+    left: 54.25%;
+    right: 35.55%;
+    top: -26.14%;
+    bottom: 100.21%;
+}
