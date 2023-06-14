@@ -1,0 +1,115 @@
+.datacolumnheadings{
+    background: rgba(217, 217, 217, 0.3);
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 10px 10px 0 0;
+}
+.datatable{
+    border-spacing: 0;
+}
+.datacolumnheadings th{
+    padding-inline: 30px;
+    padding-block: 8px;
+    white-space: nowrap;
+    text-align: left;
+}
+.datacolumnheadings th:first-child{
+    border-top-left-radius: 10px;
+}
+.datacolumnheadings th:last-child{
+    border-top-right-radius: 10px;
+}
+.datarows{
+    box-shadow: 0 1px 1px black;
+}
+
+.booking > td{
+    padding-block: 18px;
+    padding-inline: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.bookingimage{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5PX;
+}
+.namedata{
+    font-family: 'Alegreya Sans';
+    font-weight: 700;
+    font-size: 15px;
+    color: #242E42;
+
+    display: flex;
+    align-items: center;
+}
+.datedata{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+.packagedetailsdata{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #242E42;
+}
+.paymentmodedata{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+
+    color: #FFFFFF;
+}
+.paymentmodedata > div{
+    width: fit-content;
+    border-radius: 18px;
+    padding-inline: 5px;
+}
+.paymentmodedata.offline > div{
+    background: #FFCA28;
+}
+.paymentmodedata.online > div{
+    background: #35DBA2;
+}
+.pages{
+    display: flex;
+    justify-content:space-between;
+    margin-inline: auto;
+    width: fit-content;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+.page{
+    background-color: #FF5757;
+    color: white;
+    
+    padding-inline: 10px;
+    padding-block: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.currentpage{
+    background-color: #8f3e3e;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+

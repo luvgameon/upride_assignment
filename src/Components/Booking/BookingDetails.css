@@ -1,28 +1,73 @@
-.bookingview{
-position: absolute;
-width: 315px;
-height: 37px;
-left: 356px;
-top: 111px;
+.viewbooking{
+    padding-inline: 44px;
+    padding-block: 36px;
+    width: 55%;
+}
+.viewbookingtitle{
+    display: flex;
+}
+.cursor{
+    cursor: pointer;
+}
+.viewertitletext{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 15px;
-/* or 60% */
-
-display: flex;
-align-items: center;
-
-color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.85);
+    margin-right: 16px;
+}
+.viewerimage{
+   
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
 
 }
 
-.icon{
+.viewbooking .featurebox{
+    margin-left: auto;
+    width: 35px;
+    height: 34px;
+
+    background: #D9D9D9;
+}
+.viewbooking .tabs{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.68);
+    gap:50px;
+}
+.tab{
+    padding: 16px;
+}
+.tab.selected{
+    color: #FF5757;
+}
+.tab.selected::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: calc( 100% + 40px );
+    border-radius: 10px;
+    transform: translateX(-14px);
+    background-image: linear-gradient(180deg, #FC8F8F 0%, #FF5757 100%);
+    
+    margin-top: 5px;
+}
+
+.table{
     position: absolute;
-    left: 54.25%;
-    right: 35.55%;
-    top: -26.14%;
-    bottom: 100.21%;
+width: 524px;
+height: 37px;
+left: 326px;
+top: 225px;
+
+background: rgba(217, 217, 217, 0.3);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+border-radius: 10px 10px 0px 0px;
 }
+
